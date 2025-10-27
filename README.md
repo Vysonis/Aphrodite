@@ -3,7 +3,7 @@
 
 Aphrodite is a **Linux Kernel Module (LKM)** designed as a research proof-of-concept exploring kernel-space monitoring, reverse shell invocation, and encrypted metrics collection. It leverages modern Linux kernel subsystems like `io_uring`, KTLS, and the Crypto API to demonstrate advanced persistence, stealth, and communication techniques.
 
---
+
 
 ## Table of Contents
 
@@ -228,3 +228,4 @@ flowchart TB
 * `io_uring` allows non-blocking async writes.
 * AES-NI instructions accelerate encryption using CPU registers.
 * Packed structs maintain predictable memory layout.
+

@@ -27,7 +27,6 @@ Aphrodite hooks into the kernel to periodically:
 * If not found, spawn a reverse shell (conceptually, not executable in this README)
 * Record **timing and metrics** around operations
 * Encrypt and submit these metrics using kernel crypto + io\_uring
-* 
 ---
 
 ## Core Components
@@ -228,4 +227,5 @@ flowchart TB
 * `io_uring` allows non-blocking async writes.
 * AES-NI instructions accelerate encryption using CPU registers.
 * Packed structs maintain predictable memory layout.
+
 
